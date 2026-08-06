@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-slate-800 antialiased;
+}
+
+/* Smooth cross-fade for hero slides so background changes are never abrupt */
+.hero-slide {
+  transition: opacity 1.4s ease-in-out;
+}
+
+/* Wave layers loop seamlessly (each SVG is duplicated at 200% width, animation
+   shifts by exactly 50% so the loop point is invisible) */
+.wave-layer svg {
+  display: block;
+  width: 200%;
+  height: 100%;
+}
