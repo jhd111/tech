@@ -5,7 +5,7 @@ import CTABanner from "@/components/CTABanner";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Home",
+  title: "Home | H-Tech Supports",
   description:
     "H-Tech Supports delivers wireless services, network deployment, and field support solutions across more than 50 countries.",
 };
